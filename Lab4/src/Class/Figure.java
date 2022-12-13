@@ -24,7 +24,7 @@ public class Figure extends Dwarf implements LooksLike, Look, RushTo, ScreamOfHa
             @Override
             public String getAddress() throws FigureIsLate{
                     Double chance = Math.random();
-                    if (chance < 0) throw new FigureIsLate("Фигура ещё не на месте");
+                    if (chance < 0.3) throw new FigureIsLate("Фигура ещё не на месте");
                     else return Figure.this.address;
                 }
             @Override
