@@ -89,7 +89,8 @@ public class Main {
             System.out.println(travellers.toCelebrate(name));
             System.out.println(tsvetik.toCelebrate(name));
             System.out.print("Что нужно принести для празднования, "+name+"?: ");
-            String sailNeed = in.next();
+            Scanner in2 = new Scanner();
+            String sailNeed = in2.next();
             String[] saillist = sailNeed.split(",", -1);
             Dwarf[] persons = new Dwarf[]{neznayka, tsvetik, figure,ponchik,znayka};
             for (int i = 0; i < saillist.length; i++) {
