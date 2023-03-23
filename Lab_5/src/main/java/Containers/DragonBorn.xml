@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dragons>
+    <dragon>
+        <id>1</id>
+        <name>Erik</name>
+        <coordinates>
+            <x>35</x>
+            <y>254</y>
+        </coordinates>
+        <creationDate>2023-03-23T23:09:45.4144585+03:00[Europe/Moscow]</creationDate>
+        <age>34</age>
+        <color>BLACK</color>
+        <type>WATER</type>
+        <character>GOOD</character>
+        <cave>
+            <depth>763</depth>
+            <numberOfTreasures>146454</numberOfTreasures>
+        </cave>
+    </dragon>
+    <dragon>
+        <id>2</id>
+        <name>Stepan</name>
+        <coordinates>
+            <x>6</x>
+            <y>601</y>
+        </coordinates>
+        <creationDate>2023-03-23T23:23:12.3169797+03:00[Europe/Moscow]</creationDate>
+        <age>19</age>
+        <color>GREEN</color>
+        <type>FIRE</type>
+        <character>EVIL</character>
+        <cave>
+            <depth>1245</depth>
+            <numberOfTreasures>56134</numberOfTreasures>
+        </cave>
+    </dragon>
+</dragons>
